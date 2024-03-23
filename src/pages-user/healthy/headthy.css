@@ -1,0 +1,168 @@
+.headthyMenu__meal-list-recommend {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0;
+    padding: 0 160px;
+    margin-bottom: 56px;
+}
+
+.headthyMenu__meal-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    padding: 0 160px;
+
+}
+
+.headthyMenu__button-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+    margin-bottom: 64px;
+}
+
+.headthyMenu__order-chart {
+    display: flex;
+    background: #2E2E2E
+}
+
+.headthyMenu__order-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 164px;
+}
+
+.headthyMenu__information-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 160px;
+
+}
+
+.headthyMenu__information-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 288px;
+    height: 288px;
+    background: var(--bs-dark-rgb);
+    border: 24px solid var(--color-orange);
+    margin-right: 48px;
+    position: relative;
+
+}
+
+.headthyMenu__information-list-item-img>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 240px;
+    z-index: 1;
+    opacity: 0.1;
+}
+
+.headthyMenu__information-list-item>span {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.125px;
+    text-align: center;
+    color: var(--color-orange);
+    margin-bottom: 5px;
+}
+
+.headthyMenu__information-exercise {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    margin: 0 160px;
+    background: #414141;
+
+}
+
+.headthyMenu__information-exercise-list {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+
+}
+
+.headthyMenu__information-exercise-list::-webkit-scrollbar {
+    width: 7px;
+}
+
+.headthyMenu__information-exercise-list::-webkit-scrollbar-thumb {
+    background-color: #FFCC21;
+    border-radius: 20px;
+}
+
+.headthyMenu__information-exercise-list:hover::-webkit-scrollbar-thumb {
+    background-color: #FFCC21;
+    width: 7px;
+}
+
+.headthyMenu__information-record {
+    display: flex;
+    flex-direction: column;
+    margin: 52px 160px;
+    background: #414141;
+}
+
+.headthyMenu__information-exercise-text,
+.headthyMenu__information-record-text {
+    display: flex;
+}
+
+.headthyMenu__information-exercise-text>h1,
+.headthyMenu__information-record-text>h1 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.15px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 10px;
+
+}
+
+.headthyMenu__information-exercise-text>h1:nth-child(1),
+.headthyMenu__information-record-text>h1:nth-child(1) {
+    width: 70px;
+}
+
+.headthyMenu__information-record-button {
+    position: absolute;
+    left: 10px;
+    bottom: -15px;
+}
+
+.headthyMenu__information-record-button>button {
+    margin-right: 10px;
+}
+
+.headthyMenu__information-diary {
+    display: "block";
+    padding: 0 160px;
+}
+
+.headthyMenu__information-diary>h1 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+
+}
+
+.headthyMenu__information-dairy-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+
+}

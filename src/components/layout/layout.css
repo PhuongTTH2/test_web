@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Noto Sans JP');
+
+:root {
+    --bs-dark-rgb: #414141;
+    --main-bg: #ffffff;
+    --color-orange: #FFCC21;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.layout {
+    max-width: 1280px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .layout {
+        min-width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+}
+
+/* @media only screen and (max-width: 1280px) {
+    .layout {
+        max-width: 1280px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+} */
